@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Animation Test 001</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="Animation">
+<meta name="author" content="Storytelling">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="container" class="container">
+  <div class="card-container">
+    <div class="card-number"><p>1</p></div>
+    <div class="card">
+      <p class="answer-hide1 answer-note">Nice, you got it right!</p>
+      <div class="answer-hide1 more-btn">Learn more about this answer</div>
+      <p class="answer-hide2 next-question">Want another question?</p>
+      <div class="thumb-icon"><img src="thumb-icon.svg"></div>
+      <div class="circle-front"></div>
+      <div class="circle-back"></div>
+      <div class="answer-top">
+        <p class="answer-hide1 answer-hdr">Answer</p>
+        <div class="answer-hide1 answer-line"></div>
+        <p class="answer-hide1 answer-value">1932</p>
+      </div>
+      <div class="answer-bot"></div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="card-container">
+    <div class="card-number">
+      <p class="card-counter" id="card-counter">2</p>
+      <div class="pulse"></div>
+    </div>
+    <div class="card card-slide"></div>
+    <div class="button button2"></div>
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+<script src="jquery.transform.js"></script>
+<script src="scripts.js"></script>
+
+</body>
+</html>
